@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="main1">
+    <div class="creating-meme">
+
+        <label  for="colorpicker">Sketch</label>
+        <input id="hex" type="color" placeholder="enter hex color"></input>
+
+        
+        <label class="txt1">Select an Image</label>
+        <input type="file" id="imgfile">
+        
+        <label for="text">Top Text</label>
+        <input type="text" name="" id="toptext">
+
+        <label for="text">Bottom Text</label>
+        <input type="text" name="" id="bottomtext">
+        
+        <canvas id="meme"></canvas>
+        
+    </div>
+    <button class="save" onclick="window.print()">Save</button>
+    <script src="script.js"></script>
+</body>
+</html>
